@@ -17,4 +17,4 @@ public class Solution {
     }
 }
 
-// Runtime 145 ms | Memory 44.8 MB
+// Runtime 142 ms | Memory 45.4 MB
