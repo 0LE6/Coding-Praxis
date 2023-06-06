@@ -5,3 +5,5 @@ public class Solution {
         return s.Length == 0;
     }
 }
+
+// Poor first version (Valid anyways)
