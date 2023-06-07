@@ -1,3 +1,5 @@
+// Simple one return solution.
+
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
         string firstStr = strs[0];
