@@ -9,3 +9,18 @@ public class Solution {
         return (int)i - 1;
     }
 }
+
+/*  
+>> Using C# Math.Sqrt() Method
+
+public class Solution {
+    public int MySqrt(int x) {
+        return (int)Math.Sqrt(x);
+    }
+}
+
+>> Fastest solution:
+public class Solution {
+    public int MySqrt(int x) => (int)Math.Sqrt(x);
+}
+*/
