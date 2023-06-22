@@ -1,4 +1,4 @@
-/* Newton-Raphson method*/
+/* Newton-Raphson method */
 
 public class Solution {
     public int MySqrt(int x) {
