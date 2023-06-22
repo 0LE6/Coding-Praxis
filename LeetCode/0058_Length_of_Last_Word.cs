@@ -1,3 +1,5 @@
+/* No Split and Trim version */
+
 public class Solution {
     public int LengthOfLastWord(string s) {
         int res = 0;
@@ -11,3 +13,13 @@ public class Solution {
         return res;
     }
 }
+
+/* Split and Trim version:
+
+public class Solution {
+    public int LengthOfLastWord(string s) {
+        var str = s.Trim().Split(' ');
+        return str[str.Length -1].Length;
+    }
+}
+*/
