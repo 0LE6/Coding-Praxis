@@ -29,7 +29,7 @@
         return curr;
     }
 
-    // Solution using MEMORIZATION (good efficienty)
+    // Solution using MEMORIZATION (good efficiency)
     public static int Fib4(int n) {
         Dictionary<int, int> memo = new Dictionary<int, int>();
         if (n < 2) return n;
