@@ -13,3 +13,21 @@ public class Solution {
         return false;
     }
 }
+
+// Slower solution
+
+public class Solution {
+    public bool IsPerfectSquare(int num) {
+        if (num == 1) return true;
+        
+        long i = 1;
+        while (i * i <= num) {
+            if (i * i == num) {
+                return true;
+            }
+            i++;
+        }
+        
+        return false;
+    }
+}
