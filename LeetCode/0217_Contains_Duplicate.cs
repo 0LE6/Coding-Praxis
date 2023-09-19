@@ -1,7 +1,7 @@
 // Time 0(n) / Space 0(n)
 public static bool ContainsDuplicate(int[] nums) {
     HashSet<int> set = new HashSet<int>(nums);
-    return set.Count != nums.Length ? true : false;
+    return set.Count != nums.Length ? true : false; // Ternary not necessary
 }
 
 // Time 0(n * log(n)) / Space 0(n)
